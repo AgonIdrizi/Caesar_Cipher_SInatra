@@ -1,0 +1,32 @@
+<html>
+<head>
+	 <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <h1>CAESAR CIPHER</h1>
+  <div class="div_form">
+    <form action="/" method="post">
+      <fieldset>
+        <legend>Caesar Cipher</legend>
+        <label for="cipher">Enter your message here:</label>
+        <div>
+          <textarea rows="4" cols="50" name="cipher"></textarea>
+        </div>
+        <label for="shift">Enter your shift amount here</label>
+          <input id="num" type="number" name="shift" min="1">
+          <input id="sub_button" type="submit" name="cipher_text" value="Encode!">
+      </fieldset>
+    </form>
+  </div>
+    <div class ="cipher_form">
+    <textarea name="cipher_output" rows="3" cols="35" readonly><%= string %></textarea>
+    </div>
+  
+  </body>
+
+
+</body>
+
+
+
+</html>

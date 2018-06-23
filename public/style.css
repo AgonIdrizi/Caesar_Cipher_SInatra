@@ -1,0 +1,40 @@
+body {
+  color: #02E148;
+  background-color: #0f0f0a;
+  text-align: center;
+}
+
+.div_form {
+  width: 300;
+  margin: auto;
+  display: block;
+}
+
+.div_form form textarea {
+  width: 100%;
+  text-align: center;
+}
+
+.div_form form #num {
+  width: 50;
+  margin-top: 15;
+}
+
+.div_form form #sub_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7;
+}
+
+.cipher_form {
+  width: 300;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40;
+  display: block;
+}
+
+.cipher_form textarea {
+  text-align: center;
+}
